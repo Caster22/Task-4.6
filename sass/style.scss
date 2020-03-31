@@ -26,6 +26,8 @@ $font-text: 'Robot', Sans-Serif;
     list-style: none;
     margin-top: 10px;
     padding-top: 10px;
+    font-family: $font-text;
+    font-weight: bold;
     font-size: 20px;
     float: right;
     li {
@@ -34,7 +36,26 @@ $font-text: 'Robot', Sans-Serif;
     }
     a {
       text-decoration: none;
-      color: white;
+      color: black;
+    }
+  }
+  .splash-title {
+    text-align: center;
+    margin-top:  10%;
+    h2 {
+      margin: 10px 0;
+      padding: 10px 0;
+      font-size: 40px;
+      font-family: $font-header;
+    }
+    h1 {
+      margin: 10px 0;
+      padding: 10px 0;
+      font-size: 60px;
+      font-family: $font-text;
+    }
+    a {
+      margin-bottom: 150px;
     }
   }
 }
