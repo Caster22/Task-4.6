@@ -1,0 +1,36 @@
+/*global*/
+
+$font-header: 'Parisienne', Sans-Serif;
+$font-text: 'Robot', Sans-Serif;
+
+/*header*/
+
+.head {
+  /*background-image: url("images/header-img.jpg");*/
+  background-color: dimgrey;
+  .row {
+    justify-content: space-around;
+  }
+  .head-title {
+    color: gold;
+    font-family: $font-header;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .head-list {
+    list-style: none;
+    margin-top: 10px;
+    padding-top: 10px;
+
+    float: right;
+    li {
+      padding: 10px;
+      display: inline-block;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
