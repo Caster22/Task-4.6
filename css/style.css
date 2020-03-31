@@ -1,16 +1,16 @@
 /*global*/
-/*header*/
-.head {
+/*Navigation*/
+.nav-bar {
   /*background-image: url("images/header-img.jpg");*/
   background-color: dimgrey;
 }
 
-.head .row {
+.nav-bar .row {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
-.head .head-title {
+.nav-bar .nav-title {
   color: gold;
   font-family: "Parisienne", Sans-Serif;
   font-size: 40px;
@@ -18,19 +18,20 @@
   margin-top: 10px;
 }
 
-.head .head-list {
+.nav-bar .nav-list {
   list-style: none;
   margin-top: 10px;
   padding-top: 10px;
+  font-size: 20px;
   float: right;
 }
 
-.head .head-list li {
+.nav-bar .nav-list li {
   padding: 10px;
   display: inline-block;
 }
 
-.head .head-list a {
+.nav-bar .nav-list a {
   text-decoration: none;
   color: white;
 }

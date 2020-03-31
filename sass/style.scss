@@ -3,26 +3,26 @@
 $font-header: 'Parisienne', Sans-Serif;
 $font-text: 'Robot', Sans-Serif;
 
-/*header*/
+/*Navigation*/
 
-.head {
+.nav-bar {
   /*background-image: url("images/header-img.jpg");*/
   background-color: dimgrey;
   .row {
     justify-content: space-around;
   }
-  .head-title {
+  .nav-title {
     color: gold;
     font-family: $font-header;
     font-size: 40px;
     margin-bottom: 10px;
     margin-top: 10px;
   }
-  .head-list {
+  .nav-list {
     list-style: none;
     margin-top: 10px;
     padding-top: 10px;
-
+    font-size: 20px;
     float: right;
     li {
       padding: 10px;
