@@ -1,16 +1,17 @@
 /*global*/
-/*Navigation*/
-.nav-bar {
-  /*background-image: url("images/header-img.jpg");*/
-  background-color: dimgrey;
+/*Splash*/
+.splash {
+  background-image: url("../images/header-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.nav-bar .row {
+.splash .row {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
-.nav-bar .nav-title {
+.splash .nav-title {
   color: gold;
   font-family: "Parisienne", Sans-Serif;
   font-size: 40px;
@@ -18,7 +19,7 @@
   margin-top: 10px;
 }
 
-.nav-bar .nav-list {
+.splash .nav-list {
   list-style: none;
   margin-top: 10px;
   padding-top: 10px;
@@ -26,13 +27,35 @@
   float: right;
 }
 
-.nav-bar .nav-list li {
+.splash .nav-list li {
   padding: 10px;
   display: inline-block;
 }
 
-.nav-bar .nav-list a {
+.splash .nav-list a {
   text-decoration: none;
   color: white;
+}
+
+.btn {
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  font-weight: bolder;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "Robot", Sans-Serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  transition: all 1s;
+}
+
+.btn:hover {
+  color: blueviolet;
 }
 /*# sourceMappingURL=style.css.map */
