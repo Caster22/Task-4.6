@@ -2,8 +2,22 @@
 
 $font-header: 'Parisienne', Sans-Serif;
 $font-text: 'Robot', Sans-Serif;
+$font-cursive: 'Courgette', Sans-Serif;
 
-
+.page-title {
+  margin: 10% 0;
+  text-align: center;
+  h3 {
+    font-size: 40px;
+    margin: 10px 0;
+    font-family: $font-text;
+  }
+  p {
+    margin: 10px 0;
+    font-size: 15px;
+    font-family: $font-cursive;
+  }
+}
 
 
 /*Splash*/
@@ -46,7 +60,7 @@ $font-text: 'Robot', Sans-Serif;
       margin: 10px 0;
       padding: 10px 0;
       font-size: 40px;
-      font-family: $font-header;
+      font-family: $font-cursive;
     }
     h1 {
       margin: 10px 0;
@@ -78,5 +92,27 @@ $font-text: 'Robot', Sans-Serif;
   transition: all 1s;
   &:hover {
     color: blueviolet;
+  }
+}
+
+/*Services*/
+
+.services {
+  .row {
+    .card-shop {
+      text-align: center;
+    }
+    i {
+      text-align: center;
+      font-size: 40px;
+      color: gold;
+      border: gold 4px solid;
+      padding: 15px;
+      border-radius: 50%;
+    }
+    h4 {
+      font-family: $font-text;
+      font-size: 20px;
+    }
   }
 }

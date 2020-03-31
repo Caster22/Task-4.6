@@ -1,4 +1,21 @@
 /*global*/
+.page-title {
+  margin: 10% 0;
+  text-align: center;
+}
+
+.page-title h3 {
+  font-size: 40px;
+  margin: 10px 0;
+  font-family: "Robot", Sans-Serif;
+}
+
+.page-title p {
+  margin: 10px 0;
+  font-size: 15px;
+  font-family: "Courgette", Sans-Serif;
+}
+
 /*Splash*/
 .splash {
   background-image: url("../images/header-img.jpg");
@@ -48,7 +65,7 @@
   margin: 10px 0;
   padding: 10px 0;
   font-size: 40px;
-  font-family: "Parisienne", Sans-Serif;
+  font-family: "Courgette", Sans-Serif;
 }
 
 .splash .splash-title h1 {
@@ -82,5 +99,24 @@
 
 .btn:hover {
   color: blueviolet;
+}
+
+/*Services*/
+.services .row .card-shop {
+  text-align: center;
+}
+
+.services .row i {
+  text-align: center;
+  font-size: 40px;
+  color: gold;
+  border: gold 4px solid;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.services .row h4 {
+  font-family: "Robot", Sans-Serif;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */
