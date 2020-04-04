@@ -49,11 +49,36 @@
 .splash .nav-list li {
   padding: 10px;
   display: inline-block;
+  position: relative;
+}
+
+.splash .nav-list li:hover .dropdown {
+  display: block;
+}
+
+.splash .nav-list li .dropdown {
+  padding-left: 0;
+  text-align: left;
+  min-width: 100%;
+  background-color: gold;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+}
+
+.splash .nav-list .down-menu {
+  display: none;
 }
 
 .splash .nav-list a {
+  display: block;
   text-decoration: none;
   color: black;
+}
+
+.splash .nav-list a:hover {
+  color: blueviolet;
 }
 
 .splash .splash-title {
