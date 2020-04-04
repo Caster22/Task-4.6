@@ -42,7 +42,7 @@ $font-cursive: 'Courgette', Sans-Serif;
     padding-top: 10px;
     font-family: $font-text;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 14px;
     float: right;
     li {
       padding: 10px;
@@ -151,6 +151,7 @@ $font-cursive: 'Courgette', Sans-Serif;
     padding-bottom: 30px;
     .card-port {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-color: white;
       h4 {
         font-family: $font-text;
         font-size: 20px;
@@ -202,6 +203,37 @@ $font-cursive: 'Courgette', Sans-Serif;
         font-size: 20px;
         color: white;
       }
+    }
+  }
+}
+
+/*Media*/
+
+@media (max-width: 991px) {
+  .splash{
+    .row {
+      justify-content: center;
+      h3 {
+        text-align: center;
+      }
+      .nav-list {
+        font-size: 10px;
+        padding: 0;
+        float: none;
+        left: 50%;
+        right: 50%;
+        padding-left: 8%;
+      }
+    }
+  }
+  .foot {
+    .copy {
+      text-align: center;
+      padding-top: 40px;
+    }
+    .foot-list {
+      text-align: center;
+      padding: 0;
     }
   }
 }
